@@ -145,6 +145,7 @@ h4{
 }
 h1{
     color:white;
+    text-align: center;
 }
 h3{
     color:white;
@@ -208,16 +209,8 @@ div{
 }
 
 
-/*
-.home{
-   display: flex;
-   
-   align-items:center;
 
 
-
-
-}*/
 
 .home {
   display: flex;
@@ -232,10 +225,61 @@ div{
   border-radius: 20px;
 }
 
-.home-text {
+.text {
   
   flex-direction: column;
   text-align: center;
 
   max-width: 600px;
+}
+
+#info-icon{
+    width:200px;
+    border-radius:20px;
+}
+#info-icon:hover{
+    transform:scale(1.2);
+    size:large;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  padding: 50px;
+}
+
+.about-section2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    align-items:center;
+    gap:20px;
+        
+    
+
+}
+.skills{
+    
+    background-color:slategrey;
+    text-align:center;
+    padding:10px;
+    border-radius:20px;
+
+}
+.education{
+    background-color:slategrey;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    
+}
+.certificates{
+    background-color:slategrey;
+    text-align:center;
+    padding:10px;
+    border-radius:20px;
 }
