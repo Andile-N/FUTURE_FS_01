@@ -256,30 +256,19 @@ div{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     
-    align-items:center;
+    align-items:stretch;
     gap:20px;
         
     
 
 }
-.skills{
+.skills,.education,.certificates{
     
     background-color:slategrey;
     text-align:center;
     padding:10px;
     border-radius:20px;
+    height: 100%;
 
 }
-.education{
-    background-color:slategrey;
-    text-align:center;
-    padding:10px;
-    border-radius:10px;
-    
-}
-.certificates{
-    background-color:slategrey;
-    text-align:center;
-    padding:10px;
-    border-radius:20px;
-}
+
