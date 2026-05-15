@@ -272,3 +272,41 @@ div{
 
 }
 
+/*Experience*/
+
+
+#Experience-1,#Experience-2{
+    
+       background-color:slategrey;
+    text-align:center;
+    padding:10px;
+    border-radius:20px;
+    height: 100%;
+}
+
+.Experience{
+   display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    align-items:stretch;
+    gap:20px;
+    
+}
+#Experience-3{
+       background-color:slategrey;
+    text-align:center;
+    padding:20px;
+    border-radius:20px;
+    height: 100%;
+ 
+}
+
+#Experience-1, #Experience-2, #Experience-3:hover{
+    
+    cursor:text;
+  
+    
+  
+}
+
+
