@@ -377,3 +377,57 @@ align-items:center;
 text-align:center;
 }
 
+.project-info img{
+    width:300px;
+    border-radius:20px;
+    align-items:center;
+}
+.project-info{
+    
+    border-radius:20px;
+    gap:20px;
+    padding:20px;
+    display:inline;
+    
+    text-align:center;
+
+}
+.btn-git{
+      background-color:rgb(14, 14, 29);
+    color:rgb(40, 40, 239);
+    border:20%;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:1rem;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+}
+.btn-demo{
+    background-color:rgb(40, 40, 239);
+    color:rgb(14, 14, 29);
+    border:20%;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:1rem;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+}
+.btn-demo:hover{
+    background-color:rgb(14, 14, 29);
+    color:rgb(40, 40, 239);
+    font-size:larger;
+
+}
+.btn-git:hover{
+     background-color:rgb(40, 40, 239);
+    color:rgb(14, 14, 29);
+    font-size:larger;
+
+}
+.projects{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    align-items:stretch;
+    gap:20px;
+}
