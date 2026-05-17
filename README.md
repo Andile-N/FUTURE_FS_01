@@ -1,28 +1,19 @@
-# FUTURE_FS_01
+# Personal Portfolio Website
 
-Personal Professional Portfolio Website
+This project is a responsive personal portfolio website
+developed as part of the Future Interns Full Stack Web
+Development Internship.
 
-## Internship
-Future Interns – Full Stack Web Development Internship
-
-## Developer
-Andile Ndumiso Nxumalo
-
-## CIN ID
-FIT/MAY26/FS15983
-
-## Tech Stack
-- React.js
-- Tailwind CSS
-- Node.js
-- MongoDB
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
 ## Features
-- Responsive portfolio website
-- Projects showcase
-- Skills section
-- Contact form
-- Resume section
-
-## Status
-🚧 In Development
+- Responsive Design
+- About Section
+- Skills & Education
+- Experience Section
+- Projects Showcase
+- Contact Form
+- Certificate Links
