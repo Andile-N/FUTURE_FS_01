@@ -19,11 +19,64 @@
    #hamburger-nav{
     display: flex;
    }
+.hamburger-menu{
+    position:relative;
+    display:inline-block;
+}
+
+.hamburger-icon{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    height:24px;
+    width:30px;
+
+    cursor:pointer;
+}
+
+.hamburger-icon span{
+
+    width:100%;
+    height:3px;
+
+    background:rgb(255, 255, 255);
+
+    transition:0.3s;
+}
+
+.menu-links{
+
+    position:absolute;
+
+    top:100%;
+    right:0;
+
+    background:slategrey;
+
+    width:200px;
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:0.3s ease-in-out;
+}
+
+.menu-links.open{
+    max-height:300px;
+}
+
+
+
+
+
+
    .Experience, #Experience-1, #Experience-2, #Experience-3{
       margin-top: 2rem;
     
    }
-   .home,.about, .projects, .contact
+   .home,.about, .projects, .contact, .liveDemo
    {
       display: block;
    }
