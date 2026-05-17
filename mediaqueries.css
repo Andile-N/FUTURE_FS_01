@@ -76,19 +76,16 @@
       margin-top: 2rem;
     
    }
-   .home,.about, .projects, .contact, .liveDemo
+   .home,.about, .projects, .Experience, .contact, .liveDemo, .about-section2
    {
       display: block;
+      
    }
    
    
    
-   #about img{
-      width: 100px;
-      height: 500px;
-      margin: 0 auto 2rem;
+   
 
-   }
    .about{
       margin-top: 0;
    }
