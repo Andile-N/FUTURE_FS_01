@@ -1,0 +1,87 @@
+@media screen and (max-width:1500px){
+   .home{
+      height: 83vh;
+      margin-bottom: 34rem;
+      align-items: flex-start;
+   }
+   .projects{
+      flex-wrap: wrap;
+
+   }
+}
+
+
+
+@media screen and (max-width:1200px){
+   #desktop-nav{
+    display: none;
+   } 
+   #hamburger-nav{
+    display: flex;
+   }
+   .Experience, #Experience-1, #Experience-2, #Experience-3{
+      margin-top: 2rem;
+    
+   }
+   .home,.about, .projects, .contact
+   {
+      display: block;
+   }
+   
+   
+   
+   #about img{
+      width: 100px;
+      height: 500px;
+      margin: 0 auto 2rem;
+
+   }
+   .about{
+      margin-top: 0;
+   }
+
+}
+@media screen and (max-width:600px){
+ #contact,
+ footer{
+   height: 40vh;
+ }
+ #home{
+   height: 83vh;
+   margin-bottom: 0;
+ }
+
+ footer {
+   height: fit-content;
+   margin-bottom:2rem;
+ }
+ .about{
+   flex-wrap: wrap;
+ }
+ .contact-info-container{
+   margin: 0;
+ }
+ .contact-info-container p,.nav-links li a{
+   font-size: 1rem;
+ }
+ .experience-sub-title{
+   font-size: 1.25rem;
+
+ }
+ .logo{
+   font-size: 1.5rem;
+ }
+.nav-links{
+   flex-direction: column;
+   gap: 0.5rem;
+   text-align: center;
+}
+.body img {
+   width: auto;
+   height: 46vh;
+   justify-content: center;
+}
+
+
+
+}
