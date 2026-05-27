@@ -276,7 +276,7 @@ div{
 /*Experience*/
 
 
-#Experience-1,#Experience-2{
+#Experience-1,#Experience-2, #Experience-4{
     
        background-color:slategrey;
     text-align:center;
@@ -302,7 +302,7 @@ div{
  
 }
 
-#Experience-1, #Experience-2, #Experience-3:hover{
+#Experience-1, #Experience-2, #Experience-3, #Experience-4 :hover{
     
     cursor:text;
   
